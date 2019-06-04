@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>힙합퍼</title>
+	<link rel="stylesheet" href="https://use.typekit.net/yzy2fux.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&amp;subset=korean">
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" media="(max-width: 425px)" href="./css/mobile.css" />
+	<link rel="stylesheet" media="(min-width: 426px)" href="./css/pc.css" />
+	<link rel="stylesheet" href="./css/plugin.css">
+	<script src="./js/plugin.js"></script>
+</head>
+<body>
+	<header class="site_header layout_full lc_d0">
+		<div class="inner miw1180">
+			<h1 class="logo"><a href="./" class="link spr_before"><span class="s_out">힙합퍼</span></a></h1>
+		</div>
+	</header>
+	<main class="site_main login miw1180">
+		<div class="wrap_login">
+			<div class="join_complete">
+				<strong class="tc_1">비밀번호 재설정</strong>
+			</div>
+			<!-- 휴면 회원 -->
+			<p class="find_message">
+				회원님의 아이디가 휴면 해제 되었습니다.<br>
+				리뉴얼 사이트에서 사용하실 비밀번호를 재설정 해주세요.				
+				비밀번호를 재설정 하셔야 리뉴얼 사이트에 로그인 하실 수 있습니다.
+			</p>
+			<!-- //휴면 회원 -->
+			<!-- 기존 회원 -->
+			<!--
+			<p class="find_message">
+				회원님의 개인정보 보안 강화를 위해<br>
+				리뉴얼 사이트에서 사용하실 비밀번호를 재설정 해주세요.
+				비밀번호를 재설정 하셔야 리뉴얼 사이트에 로그인 하실 수 있습니다.
+			</p>
+			-->
+			<!-- //기존 회원 -->
+			<form action="" class="wrap_login" id="resetPwForm">
+				<fieldset>
+					<legend>신규 비밀번호 입력</legend>
+					<span class="input_text large clear">
+						<input type="password" name="pw" class="lc_d0 tc_3" placeholder="비밀번호(영문+특수문자 혹은 숫자 포함 6자리 이상)" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[#?!@$%^&*-]).{6,}" required>
+						<button type="button" class="spr_before" data-type="inputreset"><span class="s_out">입력 삭제</span></button>
+						<p class="error tc_poi">비밀번호를 입력해주세요.</p>
+					</span>
+					<span class="input_text large clear">
+						<input type="password" name="pwcheck" class="lc_d0 tc_3" placeholder="비밀번호 확인" required>
+						<button type="button" class="spr_before" data-type="inputreset"><span class="s_out">입력 삭제</span></button>
+						<p class="error tc_poi">비밀번호가 일치하지 않습니다.</p>
+					</span>
+					<button type="submit" class="btn_login dark large">비밀번호 변경</button>
+				</fieldset>
+			</form>
+		</div>
+	</main>
+	<footer class="site_footer layout_full lc_d">
+		<div class="inner miw1180 clear">
+			<div class="left">
+				<a href="tel:1599-7616" class="tel tc_3">1599-7616</a>
+				<p class="time tc_3">평일 10:00 ~ 15:00 / 점심시간 12:00 ~ 13:30 / 주말, 공휴일 휴무</p>
+				<address class="addr tc_8"><span>(주) 힙합퍼(대표이사:문인식)</span> <span>주소 : 06531 서울시 서초구 신반포로 339, 1층(잠원동, 논현빌딩)</span> <span>사업자등록번호 : 211-88-70875</span> <span>통신판매업신고번호 : 제 2018-서울서초-1992호</span><br>
+				<span>개인정보관리책임 : 정병윤 CPO(<a href="mailto:MARKETING@HIPHOPER.COM">MARKETING@HIPHOPER.COM</a>)</span><span>입점문의 : STORE TEAM(<a href="mailto:DIRECTOR@HIPHOPER.COM">DIRECTOR@HIPHOPER.COM</a>)</span></address>
+			</div>
+			<div class="right">
+				<ul class="outlink clear dis_f ai_c">
+					<li><a href="https://www.facebook.com/hiphoperdotcom" class="fb spr_after pos_center_after bg_f0" target="_blank" rel="noopener noreferrer"><span class="s_out">힙합퍼 페이스북</span></a></li>
+					<li><a href="https://www.instagram.com/hiphoper_com" class="ig spr_after pos_center_after bg_f0" target="_blank" rel="noopener noreferrer"><span class="s_out">힙합퍼 인스타그램</span></a></li>
+					<li><a href="http://post.naver.com/h_store" class="pin spr_after pos_center_after bg_f0" target="_blank" rel="noopener noreferrer"><span class="s_out">힙합퍼 포스트</span></a></li>
+					<li><a href="http://blog.naver.com/h_store" class="blog spr_after pos_center_after bg_f0" target="_blank" rel="noopener noreferrer"><span class="s_out">힙합퍼 블로그</span></a></li>
+					<li><a href="https://www.youtube.com/user/hiphopertv" class="yt spr_after pos_center_after bg_f0" target="_blank" rel="noopener noreferrer"><span class="s_out">힙합퍼 유튜브</span></a></li>
+					<li><img src="./img/img_kcp.png" alt="kcp 인증마크"></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/common.js"></script>
+	<script>
+		$('#resetPwForm').validate({
+			submitHandler:function(form){
+				alert('유효성 체크 완료');
+				//form.submit();
+			},
+			rules:{
+				pwcheck:{
+					equalTo:'input[name=pw]'
+				}
+			},
+			messages:{
+				pw:{
+					required:'비밀번호를 입력해 주세요.',
+					pattern:'영문 대소문자+특수문자 혹은 숫자 포함 6자리 이상으로 입력해주세요.'
+				},
+				pwcheck:{
+					required:'비밀번호를 한번 더 입력해 주세요.',
+					equalTo:'비밀번호가 일치하지 않습니다.'
+				}
+			}
+		});
+	</script>
+</body>
+</html>

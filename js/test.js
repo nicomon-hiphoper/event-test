@@ -685,7 +685,6 @@ var hhpEvent = function() {
                 centerMode: false,
                 centerPadding: '10',
                 variableWidth: true,
-                speed: 150,
                 //respondTo : 'window',
                 responsive: [
                     {

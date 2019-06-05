@@ -25,7 +25,7 @@
 			centerMode: false,
 			centerPadding: '10',
 			variableWidth: true,
-			speed: 1500,
+			speed: 200,
 			//respondTo : 'window',
 			responsive: [
 				{breakpoint:1024,

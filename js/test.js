@@ -685,10 +685,12 @@ var hhpEvent = function() {
                 centerMode: false,
                 centerPadding: '10',
                 variableWidth: true,
+                speed: 150,
                 //respondTo : 'window',
                 responsive: [
-                    {breakpoint:1024,
-                    settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,pauseOnDotsHover:true,touchMove:true,}
+                    {
+                        breakpoint:1024,
+                        settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,pauseOnDotsHover:true,touchMove:true,}
                     }
                 ]
             }).each(function(i,el){

@@ -1338,10 +1338,6 @@
 
 .amorsale0605 {}
 .amorsale0605 .promo_section1 {}
-.amorsale0605 .promo_section1 .box_wrap {position:absolute;top:50px;left:50px;z-index:10;}
-.amorsale0605 .promo_section1 .box_wrap p {width:120px;height:120px;padding:28px 0 0 30px;border:4px solid #fff;box-sizing:border-box;text-align:left;}
-.amorsale0605 .promo_section1 .box_wrap p span{display:block;font-size:18px;font-weight:500;color:#fff;line-height:1;}
-.amorsale0605 .promo_section1 .box_wrap p span:nth-child(2):before {content:'';display:block;width:14px;height:2px;margin-top:11px;margin-bottom:9px;background-color:#fff;}
 .amorsale0605 .promo_section1 .img_wrap {position:relative;width:100%;}
 .amorsale0605 .promo_section1 .img_wrap .pattern_001{ position: absolute; right:0; bottom:-68px;}
 

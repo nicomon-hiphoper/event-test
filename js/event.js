@@ -650,6 +650,48 @@
 
 	}
 
+// sub tap slide
+var promoSlide = function () {	
+	var idx,
+	$amorsale0605 = $('.amorsale0605'),
+	$promo_slides = $amorsale0605.find('.promo_slides');
+
+	$('.promo_slides .item').each(function(i){
+		if ($(this).hasClass("on")) {
+			idx = i;
+		}
+	});
+	
+	$promo_slides.slick({
+		prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+		nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+		dots:false,
+		autoplay:false,
+		pauseOnDotsHover:true,
+		draggable:true,
+		centerMode:true,
+		initialSlide:idx,
+		arrows:true,
+		infinite:true,
+		variableWidth: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true,
+				}
+			},
+		]
+	 });
+
+};
+promoSlide();
+
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
 		'openEventSlide': openEventSlide,

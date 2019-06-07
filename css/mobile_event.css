@@ -1155,12 +1155,23 @@
 .amorsale0605 .promo_section2 .slides_area .item .coupon_info {position:relative;width:100%;height:100%;padding:8px 0;box-sizing:border-box;text-align:center;}
 .amorsale0605 .promo_section2 .slides_area .item .coupon_info .date {display:block;position:absolute;top:8px;left:8px ;z-index:1;width:75px;height:63px;background-color:#ff2e2e;font-family:'Noto Sans KR';font-size:18px;font-weight:400;color:#fff;line-height:63px;text-align:center;letter-spacing:-.5px}
 .amorsale0605 .promo_section2 .slides_area .item .coupon_info .img_wrap {position:relative;margin:0 8px;}
+.amorsale0605 .promo_section2 .promo_slides .item .coupon_info .img_wrap:before {content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);}
+.amorsale0605 .promo_section2 .promo_slides .item.on .coupon_info .img_wrap:before{display:none;}
+.amorsale0605 .promo_section2 .slides_area .item .coupon_info .txt_null,
 .amorsale0605 .promo_section2 .slides_area .item .coupon_info .txt {display:block;margin-top:17px;font-size:30px;font-weight:600;color:#111;line-height:1;font-family: proxima-nova;}
-.amorsale0605 .promo_section2 .slides_area .item .coupon_info em{display:block;margin-top:0;font-size:16px;font-weight: 400;font-family:'Noto Sans KR';color:#898989;line-height: 1;}
 
+.amorsale0605 .promo_section2 .slides_area .item .coupon_info em{display:block;margin-top:0;font-size:16px;font-weight: 400;font-family:'Noto Sans KR';color:#898989;line-height: 1;}
 .amorsale0605 .slides .slick-dots .slick-active button{background: #ff4e4e;}
 .amorsale0605 .slides .slick-dots{padding-top:13px;text-align: center;}
-
+.amorsale0605 .promo_section2 .promo_slides .item .state_comingsoon {display:block;}
+.amorsale0605 .promo_section2 .promo_slides .item .state_on {display:none;}
+.amorsale0605 .promo_section2 .promo_slides .item .state_off {display:none;}
+.amorsale0605 .promo_section2 .promo_slides .item.on .state_on {display:block;}
+.amorsale0605 .promo_section2 .promo_slides .item.on .state_comingsoon {display:none;}
+.amorsale0605 .promo_section2 .promo_slides .item.on .state_off {display:none;}
+.amorsale0605 .promo_section2 .promo_slides .item.off .state_off {display:block;}
+.amorsale0605 .promo_section2 .promo_slides .item.off .state_on {display:none;}
+.amorsale0605 .promo_section2 .promo_slides .item.off .state_comingsoon {display:none;}
 .amorsale0605 .promo_section2 .slides_area .wrap_layer {/*width:450px;*/top:50%;left:50%;transform:translate(-50%,-50%);}
 .amorsale0605 .promo_section2 .wrap_layer.promo_coupon .layer_tit {}
 .amorsale0605 .promo_section2 .wrap_layer.promo_coupon .layer_cont {text-align:center;}
